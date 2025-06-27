@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Blog Post</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						
+					</header>
+
+			
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									
+									<h1>A Story of Homes and Trends</h1>
+									
+								</header>
+								
+								<h2>Project Overview</h2>
+								<p>This project explores real-world UK residential property transaction data covering England and Wales from 2015 to 2025, sourced from the official Price Paid Data dataset published by the UK government. The dataset includes key details such as Transaction ID, Price, Date of Transfer, Postcode, Property Type, New Build Flag, Tenure (Freehold/Leasehold), Local Authority, City, County.
+								The main objective of this analysis is to uncover long-term patterns in property prices, transaction types, tenure, and new build trends across different regions—especially comparing Greater London to the rest of England and Wales.</p>
+								<h2>Objectives</h2>
+								<p>•	Identify the most and least expensive counties by average property price<br />
+								•	Compare London vs. Outside London property market<br />
+								•	Explore property type trends and their price variations<br />
+								•	Examine tenure (Freehold vs. Leasehold) and new build dynamics<br />
+								•	Show price and transaction trends quarterly</p>
+								<h2>Tools Used </h2>
+								<p>•	MySQL for data transformation and querying<br />
+								•	Tableau for interactive dashboards and visual storytelling<br />
+								•	Excel for initial cleaning and adding custom columns</p>
+								<h2>Data Preparation</h2>
+								<p>The original dataset did not include region information directly, so I added:<br />
+								•		A custom Region_Group column to classify areas into 'London' and 'Outside London'<br />
+								•		Standardized the date format and extracted Year and Quarter</p>
+								<h2>Key Insights </h2>
+								<h3>Average Property Price by Region</h3>
+
+							<div style="text-align: center;" class=""><img src="images/project1-img1.png" alt="" style="width: 40%;"/></div>
+							<p>•	London: Prices exceed £900K for existing homes and £785K for new builds<br />
+							•	Outside London: Considerably lower prices (approx. £364K existing, £345K new)<br />
+							•		Interestingly, in London, new builds tend to have lower average prices than existing properties. This reflects land scarcity, vertical development (e.g., flats), and more compact designs typically seen in new housing projects.</p>
+							<h3>Average Property Price by Type</h3>
+							<div style="text-align: center;" class=""><img src="images/project1-img2.png" alt="" style="width: 40%;"/></div>
+							<p>•	Detached homes dominate price charts, especially in London (£1.1M+)<br />
+							•	Flats are most common and affordable in London (approx. £632K)<br />
+							•		Detached homes represent status and space; flats reflect London’s urban density.</p>
+							<h3>Map of Most and Least Expensive Counties in Outside London</h3>
+							<div style="text-align: center;" class=""><img src="images/project1-img3.png" alt="" style="width: 40%;"/></div>
+							<p>•	Most Expensive: Windsor and Maidenhead, Buckinghamshire<br />
+							•	Least Expensive: Blackpool, Kingston upon Hull<br />
+							•	There are clear differences in how affordable housing is across different regions.</p>
+							<h3>Quarterly Property Transactions by Tenure</h3>
+							<div style="text-align: center;" class=""><img src="images/project1-img4.png" alt="" style="width: 60%;"/></div>
+							<p>•	Freehold transactions dominate Outside London, Leasehold more common in London<br />
+							•	Steady growth from 2015–2022, sharp rise post - Q2 2023<br />
+							•	Slight prices drop in Q1 2025 vs. Q4 2024 across most tenures<br />
+							•	Tenure affects property prices and shows how ownership varies across regions.</p>
+							<h3>Average Property Price by Year</h3>
+							<div style="text-align: center;" class=""><img src="images/project1-img5.png" alt="" style="width: 60%;"/></div>
+							<p>•	London's average price significantly higher across all property types<br />
+							•	London has more flat /apartment transactions, while detached and semi-detached homes dominate outside London<br />
+						•	London shows a clear urban housing pattern with compact living spaces.</p>
+							<h2>Conclusion</h2>
+							<p>•	London remains a high-cost urban zone dominated by flats and leasehold transactions<br />
+								•	Outside London offers better value for larger homes (detached, semi-detached)<br />
+								•	New builds command a premium and are more concentrated in metropolitan areas<br />
+								•	Post-2023 shows a major rise in market activity—likely influenced by policy or demand shifts</p>
+							
+
+							</section>
+							</div>
+
+							<!-- Copyright -->
+							 <div>
+					<div id="copyright">
+						
+					</div>
+					</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
